@@ -1,0 +1,10 @@
+echo $LOGNAME
+echo $OSTYPE
+echo $SHELL
+echo $PATH
+echo $HOME
+echo "The current directory is $(pwd)"
+echo "The files present are $(ls)"
+echo "The current users are $(w)"
+less /proc/cpuinfo
+free -m
