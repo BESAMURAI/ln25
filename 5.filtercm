@@ -1,0 +1,7 @@
+grep e f1
+grep -n a f1
+wc f1
+cut -c 3 f1
+cut -c 3 -7 f1
+tr "e" "E" <f1
+tr  -s "o" <f1
