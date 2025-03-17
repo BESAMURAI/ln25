@@ -1,0 +1,9 @@
+echo "Deletion of empty files"
+find . -type f -size 0
+echo "Do you want to delete zero size files (Y/N)?"
+read ans
+if [ $ans = Y ]
+then
+find . -type f -size 0 -exec rm {} \;
+echo "0 size files are now deleted"
+fi
