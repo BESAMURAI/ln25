@@ -1,0 +1,16 @@
+ch=0
+echo "Enter your choice"
+echo "1.Date"
+echo "2.User directory"
+echo "3.File listing"
+read ch
+if [ $ch -eq 1 ]
+then
+echo "The date is $(date)"
+elif [ $ch -eq 2 ]
+then
+echo "The current directory is $(pwd)"
+elif [ $ch -eq 3 ]
+then
+echo "The files listed are: $(ls)"
+fi
